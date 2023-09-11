@@ -11,5 +11,13 @@ h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
 h1,h2,h3,p,a {
-    font-family: 'Gill Sans', sans-serif;
+    // font-family: 'Gill Sans', sans-serif; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: $site-width;
+    min-height: $site-height;
+    background-color: red;
 }

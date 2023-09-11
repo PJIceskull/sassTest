@@ -1,0 +1,17 @@
+#header-section {
+    max-width: $site-width;
+    min-height: calc($site-height / 2) ;
+    background-color: $color1;
+    background-image: url(../images/pexels-britt-pigat-9726871.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: luminosity;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    h1 {
+        font-size: 60px;
+        color: $color4;
+
+    }
+}
