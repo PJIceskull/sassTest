@@ -21,3 +21,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: $site-height;
     background-color: red;
 }
+#header-section, #products-section, #about-section, #contact-section {
+    max-width: $site-width;
+    min-height: calc($site-height / 2) ;
+}
