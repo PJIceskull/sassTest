@@ -19,13 +19,12 @@ h1, h2, h3, p, a {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1280vw;
   min-height: 800px;
-  background-color: red;
 }
 
 #header-section, #products-section, #about-section, #contact-section {
-  max-width: 1280px;
+  max-width: 1280vw;
   min-height: 400px;
 }
 
